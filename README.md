@@ -25,7 +25,7 @@ Deliverables
   - Sample executions and output
   - Conclusions (one per team member)
 - [`HOWTO.md`](./HOWTO.md) with details on how to compile and run your program
-- Main program should be impleted on [`math-exp-analyzer.go`](./`math-exp-analyzer.go)
+- Main program should be impleted on [`math-exp-analyzer.go`](./math-exp-analyzer.go)
 
 
 How your program will be tested
