@@ -2,9 +2,9 @@ Math Expressions Analyzer
 =========================
 
 This is the time to apply what you have learned in the Computational Theory Class.
-You will implement a math expression analyzers that will validate simple mathematical expressions. Below the criteria you need to consider.
+You will implement a math expression analyzers that will validate simple mathematical expressions. Below the criteria you need to consider. You'll need to create a proper and powerful enough grammar(s) that will correctly analyze mathematical expressions without allowing invalid or wrong constructed math expressions.
 
-- Support for balanced parenthesis `()`
+- Support for balanced parenthesis `()` and brackets`[]`
 - Supported operators:
   - `*` for multiplications
   - `**` for power (exponentiation) 
@@ -16,15 +16,15 @@ You will implement a math expression analyzers that will validate simple mathema
 
 Deliverables
 ------------
-- A pdf document with the following content:
+- A [`project.pdf`](./project.pdf) document with the following content:
   - Presentation Page
   - Description of the project
-  - Context-Free Grammar(s), Push-Down Automata or Finite Automata (any diagram or description of the automatas, language or grammar you designed)
-  - Derivation Trees (in case you want to give an example)
+  - Context-Free Grammar(s), Push-Down or Finite Automata(s) and any diagram, language or grammar definition
+  - Derivation Tree(s) (in case you want to give an example)
   - Program's design process (diagrams, code snippets, etc)
   - Sample executions and output
   - Conclusions (one per team member)
-- HOWTO.md with details on how to compile and run your program
+- [`HOWTO.md`](./HOWTO.md) with details on how to compile and run your program
 - Main program should be impleted on [`math-exp-analyzer.go`](./`math-exp-analyzer.go)
 
 
