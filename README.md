@@ -4,7 +4,7 @@ Math Expressions Analyzer
 This is the time to apply what you have learned in the Computational Theory Class.
 You will implement a math expression analyzers that will validate simple mathematical expressions. Below the criteria you need to consider. You'll need to create a proper and powerful enough grammar(s) that will correctly analyze mathematical expressions without allowing invalid or wrong constructed math expressions.
 
-- Support for balanced parenthesis `()` and brackets`[]`
+- Support for balanced parenthesis `()` and brackets`[]`. Brackets have higher weight that parenthesis. So, expressions like [(3-1)*(4+1)] are valid and ([3-1]*[4+1])
 - Supported operators:
   - `*` for multiplications
   - `**` for power (exponentiation) 
