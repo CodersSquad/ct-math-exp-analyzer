@@ -37,7 +37,7 @@ This is going to be simple, your program will be run as follows:
 go run math-exp-analyzer.go -i expressions.txt -o results.txt
 ```
 
-There's an [`expressions.txt`](`expressions.txt`) document sample file that you can use to test your program.
+There's an [`expressions.txt`](expressions.txt) document sample file that you can use to test your program.
 
 Your `results.txt` file should look as follows:
 
